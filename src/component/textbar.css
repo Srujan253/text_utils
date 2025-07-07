@@ -1,3 +1,44 @@
-.container button{
-    margin-top: 10px;
+.textbar-funbox {
+  background: linear-gradient(120deg, #f8ffae 0%, #43c6ac 100%);
+  border-radius: 18px;
+  box-shadow: 0 4px 24px #43c6ac33;
+  padding: 2rem 2.5rem;
+  margin: 2rem auto;
+  max-width: 700px;
+  transition: box-shadow 0.2s;
+}
+.textbar-funbox textarea {
+  border-radius: 10px;
+  font-size: 1.1rem;
+  padding: 1rem;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 2px 8px #43c6ac22;
+  border: 1.5px solid #43c6ac55;
+  transition: border 0.2s;
+}
+.textbar-funbox textarea:focus {
+  border: 2px solid #43c6ac;
+  outline: none;
+}
+.textbar-funbox .btn {
+  background: #43c6ac;
+  color: #fff;
+  border-radius: 30px;
+  font-weight: 600;
+  margin: 0.3rem 0.5rem 0.3rem 0;
+  box-shadow: 0 2px 8px #43c6ac33;
+  border: none;
+  transition: background 0.2s, transform 0.2s;
+}
+.textbar-funbox .btn:hover {
+  background: #1a8a7a;
+  transform: scale(1.07) rotate(-2deg);
+}
+.textbar-funbox h1, .textbar-funbox h2 {
+  color: #222;
+  font-weight: bold;
+}
+.textbar-funbox p {
+  color: #333;
+  font-size: 1.1rem;
 }
